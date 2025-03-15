@@ -1,0 +1,147 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+h1, h2, h3 {
+    color: #222;
+}
+
+/* Navigation */
+header {
+    background: lightblue;
+    text-align: center;
+    padding: 20px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li {
+    display: inline;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background: url('hero.jpg') no-repeat center center/cover;
+    color: white;
+}
+
+.hero h1 {
+    font-size: 50px;
+}
+
+.hero span {
+    color: #ffa500;
+}
+
+
+/* About Section */
+.about-text{
+    padding: 25px;
+}
+.about {
+    display: flex;
+    max-width: 1200px;
+    margin: 50px auto;
+    align-items: center;
+    gap: 20px;
+    background: beige;
+    padding: 0;
+    border-radius: 5px;
+}
+
+.about-image img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* Gallery Section */
+.gallery {
+    text-align: center;
+    padding: 50px;
+}
+
+.gallery-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.gallery-grid img {
+    width: 30%;
+    border-radius: 10px;
+}
+
+/* Team Section */
+.team {
+    text-align: center;
+    padding: 50px;
+    border: 1px solid black;
+}
+
+.team-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.team-member {
+    text-align: center;
+}
+
+.team-member img {
+    width: 150px;
+    border-radius: 50%;
+}
+
+/* Contact Section */
+.contact {
+    text-align: center;
+    padding: 50px;
+    background: #f8f8f8;
+}
+
+.contact form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.contact input,
+.contact textarea {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 20px;
+    background: #222;
+    color: white;
+}
